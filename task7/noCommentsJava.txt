@@ -1,0 +1,23 @@
+﻿package tests.task7;
+
+
+public class RemoveCharacter {
+
+    
+
+    public static String removeCharacter(String str, char anyChar){
+        StringBuilder stringBuilder = new StringBuilder();
+        char[] removeString = str.toCharArray();
+        
+
+            if(removeString[i] == anyChar){
+
+            } else {
+                
+            }
+        }
+        
+
+    }
+}
+
