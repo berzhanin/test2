@@ -1,4 +1,4 @@
-package task7;
+package tests.task7;
 //из текста удалить все символы, кроме пробелов, не являющиеся буквами
 public class DeleteAllCharactersNotLetters {
     public static void main (String... av) {

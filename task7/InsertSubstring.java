@@ -1,4 +1,4 @@
-package task7;
+package tests.task7;
 //В тексте после k-го символа вставить подстроку
 import java.io.*;
 

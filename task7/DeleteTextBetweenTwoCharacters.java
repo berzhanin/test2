@@ -1,4 +1,4 @@
-package task7;
+package tests.task7;
 //удалить из текста его чать, заключенную между двумя символами,
 // которые вводятся, напрмер между скобками (  )
 public class DeleteTextBetweenTwoCharacters {

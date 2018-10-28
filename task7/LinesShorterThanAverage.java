@@ -1,4 +1,4 @@
-package task7;
+package tests.task7;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

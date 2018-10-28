@@ -1,6 +1,6 @@
-package task9;
+package tests.task9;
 
-import task9.Computer;
+import tests.task9.Computer;
 
 public class Mac extends Computer {
     private int macPrice = 2000;

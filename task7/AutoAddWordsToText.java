@@ -1,4 +1,4 @@
-package task7;
+package tests.task7;
 //После каждого слова текста, заканчивающегося заданной подстрокой,
 // вставить указанное слово, например, !!!Go Russia!!!
 public class AutoAddWordsToText {

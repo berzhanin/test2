@@ -1,4 +1,4 @@
-package task9;
+package tests.task9;
 import java.util.Arrays;
 
 public class Animal {

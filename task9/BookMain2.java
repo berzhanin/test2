@@ -1,6 +1,6 @@
-package task9;
+package tests.task9;
 
-import task8.Book;
+import tests.task8.Book;
 
 public class BookMain2 {
     public static void main(String[] args) {

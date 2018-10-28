@@ -1,4 +1,4 @@
-package task7;
+package tests.task7;
 //Определить сколько раз встречается в тексте одно слово по заданному шаблону поиска
 public class CountOneWordInText {
 

@@ -1,4 +1,4 @@
-package task9;
+package tests.task9;
 
 public abstract class Computer {
 

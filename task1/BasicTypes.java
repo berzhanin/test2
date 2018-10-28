@@ -1,4 +1,4 @@
-package task1;
+package tests.task1;
 
 public class BasicTypes {
     public static void main(String[] args) {

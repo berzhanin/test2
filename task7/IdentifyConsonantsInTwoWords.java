@@ -1,4 +1,4 @@
-package task7;
+package tests.task7;
 
 public class IdentifyConsonantsInTwoWords {
     public static final String CONSONANTS = "[BCDFGHJKLMNPQRSTVWXYZ]";

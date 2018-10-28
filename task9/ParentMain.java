@@ -1,6 +1,6 @@
 package tests.task9;
 
-import task9.Child;
+import tests.task9.Child;
 import tests.task9.Parent;
 
 public class ParentMain {
