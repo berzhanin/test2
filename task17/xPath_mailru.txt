@@ -1,0 +1,31 @@
+Мой мир:  /html/body/div[2]/div[1]/div/div[1]/table/tbody/tr/td[1]/a[3]/span
+
+Все проекты: /html/body/div[2]/div[1]/div/div[1]/table/tbody/tr/td[1]/span[2]/a/i[2]
+
+Картинки: /html/body/div[2]/div[2]/div[2]/div[1]/div/div/div/div/a[2]
+
+Button "Поиск": /html/body/div[2]/div[2]/div[2]/div[1]/div/div/div/form/label[1]
+
+Кнопка "Найти": //*[@id="search:submit"]
+
+Имя ящика:  //*[@id="mailbox:loginContainer"]
+
+Кнопка Календарь: /html/body/div[2]/div[2]/div[1]/div[1]/div[2]/form/div[1]/a[2]
+
+Запомнить: /html/body/div[2]/div[2]/div[1]/div[1]/div[2]/form/div[2]/div[4]/label
+
+Леди: /html/body/div[2]/div[2]/div[2]/div[2]/div[1]/a[4]
+
+... : //*[@id="tabs:dropdown-container"]
+
+ICQ: /html/body/div[2]/div[2]/div[1]/div[2]/a[1]
+
+Спорт: /html/body/div[2]/div[2]/div[2]/div[2]/div[2]/div[2]/div[9]/div/a[1]
+
+Клуб Mail Ru для бизнеса: нет такой категории на главной странице
+
+Агент: /html/body/div[2]/div[2]/div[1]/div[2]/a[4]/div
+
+Курс валют: /html/body/div[2]/div[2]/div[2]/div[2]/div[5]/div[3]/a[1]
+Включить ленту: //*[@id="footer:feed-switch"]
+
