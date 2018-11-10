@@ -1,30 +1,30 @@
-Мой мир:  //span[contains(.,'Мой Мир')]
-Все проекты: //i[@class='x-ph__menu__button__text'][contains(.,'Все проекты')]
+п»їРњРѕР№ РјРёСЂ:  //span[contains(.,'РњРѕР№ РњРёСЂ')]
+Р’СЃРµ РїСЂРѕРµРєС‚С‹: //i[@class='x-ph__menu__button__text'][contains(.,'Р’СЃРµ РїСЂРѕРµРєС‚С‹')]
 
-Картинки: //a[contains(.,'Картинки')]
+РљР°СЂС‚РёРЅРєРё: //a[contains(.,'РљР°СЂС‚РёРЅРєРё')]
 
-Button "Поиск": //label[contains(@class,'search__icon')]
+Button "РџРѕРёСЃРє": //label[contains(@class,'search__icon')]
 
-Кнопка "Найти": //*[@id="search:submit"]
+РљРЅРѕРїРєР° "РќР°Р№С‚Рё": //*[@id="search:submit"]
 
-Имя ящика:  //*[@id="mailbox:loginContainer"]
+РРјСЏ СЏС‰РёРєР°:  //*[@id="mailbox:loginContainer"]
 
-Кнопка Календарь: //span[contains(@class,'i-relative i-color-white')]
+РљРЅРѕРїРєР° РљР°Р»РµРЅРґР°СЂСЊ: //span[contains(@class,'i-relative i-color-white')]
 
-Запомнить: //label[contains(.,'Запомнить')]
+Р—Р°РїРѕРјРЅРёС‚СЊ: //label[contains(.,'Р—Р°РїРѕРјРЅРёС‚СЊ')]
 
-Леди: //a[@class='tabs__item js-click'][contains(.,'Леди')]
+Р›РµРґРё: //a[@class='tabs__item js-click'][contains(.,'Р›РµРґРё')]
 
 ... : //*[@id="tabs:dropdown-container"]
 
 ICQ: //h3[contains(.,'ICQ')]
 
-Спорт: //a[contains(@name,'clb571759')]
+РЎРїРѕСЂС‚: //a[contains(@name,'clb571759')]
 
-Клуб Mail Ru для бизнеса: нет такой категории на главной странице
+РљР»СѓР± Mail Ru РґР»СЏ Р±РёР·РЅРµСЃР°: РЅРµС‚ С‚Р°РєРѕР№ РєР°С‚РµРіРѕСЂРёРё РЅР° РіР»Р°РІРЅРѕР№ СЃС‚СЂР°РЅРёС†Рµ
 
-Агент: //h3[contains(.,'Агент Mail.Ru')]
+РђРіРµРЅС‚: //h3[contains(.,'РђРіРµРЅС‚ Mail.Ru')]
 
-Курс валют: (//p[contains(@class,'i-link-deco i-color-black rate__currency')])[1]
+РљСѓСЂСЃ РІР°Р»СЋС‚: (//p[contains(@class,'i-link-deco i-color-black rate__currency')])[1]
 
-Включить ленту: //*[@id="footer:feed-switch"]
+Р’РєР»СЋС‡РёС‚СЊ Р»РµРЅС‚Сѓ: //*[@id="footer:feed-switch"]
