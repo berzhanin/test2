@@ -1,0 +1,130 @@
+1.¬ыбрать все записи из таблицы Categories
+
+select * from Categories
+
+
+2.	¬ыбрать Id  и название категорий из таблицы Categories
+
+select CategoryID, CategoryName from Categories
+
+
+3.	¬ыбрать адреса из таблицы Suppliers
+
+select Address from Suppliers
+
+
+4.	ќтсортировать все продукты по цене в пор€дке убывани€
+
+select * from Products
+order by Price
+
+
+5.	ќтсортировать таблицу заказов по CustomerID, а затем по ShipperID в одной запросе
+
+select * from Orders
+order by CustomerID,ShipperID
+
+
+6.	¬ыбрать все продукты, цена которых больше 40 и отсортировать по названию в обратном пор€дке
+
+select * from Products
+where Price > 40
+order by Price
+
+
+7.	¬ыбрать все продукты, цена которых находитс€ в диапазоне от 20 до 50 и отсортировать по юниту 
+
+select * from Products
+where Price  between 20 and 50
+order by Unit
+
+
+8.	¬ыбрать все продукты, цена которых находитс€ в диапазоне от 20 до 100 или CategoryID = 6
+
+select * from Products
+where Price  between 20 and 100
+or CategoryID = 6
+
+
+9.	¬ыбрать все продукты, цена которых равна 46, 53, 55 (2-м€ способами)
+
+select * from Products
+where Price = 46
+or Price = 53
+or Price = 55
+
+select * from Products
+where Price between 46 and 55
+and Price <> 49.3
+
+
+10.	 ¬ыбрать все продукты, кроме тех, цена которых равна 46, 53, 55 
+
+select * from Products
+ where Price <> 55
+ or Price <> 53 
+ or Price <> 46 
+ 
+ 
+11.	 ¬ыбрать все продукты, в имени которых есть сочетание Ђhanї
+
+select * from Products
+ where ProductName like '%han%'
+ 
+ 
+12.	 ¬ставить одну полную строку в таблицу Shippers
+
+insert into Shippers (ShipperID,ShipperName,Phone) 
+VALUES(С1Т,'Test',Т123Т)
+
+ 
+13.	 ¬ставить строку с 2-м€ указанными значени€ми в таблицу Shippers
+
+insert into Shippers (ShipperID,ShipperName,Phone) 
+VALUES(С1Т,'Test1',Т123Т);
+insert into Shippers (ShipperID,ShipperName,Phone)
+VALUES(С2Т,'Test2',Т321Т );
+
+ 
+14.	 ¬ставить значени€ из таблицы Shippers в таблицу Categories
+
+insert into Categories
+(CategoryName, Description)
+select ShipperName, Phone from Shippers
+
+ 
+15.	 ¬ставить значени€ из таблицы Shippers c именем поставщика ЂSpeedy Expressї в таблицу Categories
+
+insert into Categories 
+(CategoryName, Description)
+select ShipperName, Phone from Shippers
+where ShipperName in('Speedy Express')
+
+
+16.	”далить из таблицы Shippers доставщика с именем 	ЂSpeedy Expressї 
+
+delete from Shippers
+where ShipperName = СSpeedy ExpressТ
+
+
+17.	 ”далить продукты, цена которых меньше 50
+
+delete from Products
+where Price < 50
+
+
+18.	 ”далить все заказы
+
+delete from Orders
+
+
+19.	 »зменить описании категории продукта с названием категории = ЂBeveragesї на любое другое
+
+update Categories SET CategoryName = СTest1Т
+where CategoryName = 'Beverages'
+
+
+20.	 »зменить цену продукта с именем Chais на любую другую
+
+update Products SET Price = '20'
+where ProductName = 'Chais'
