@@ -17,9 +17,9 @@ public class MassiveTest {
 
     @Before
     public void setUp() throws Exception {
-        user = new Massive("Евгений", 35, "MALE");
-        user1 = new Massive("Марина", 34, "FEMALE");
-        user2 = new Massive("Алина", 7, "FEMALE");
+        user = new Massive("Eugen", 35, "MALE");
+        user1 = new Massive("Marine", 34, "FEMALE");
+        user2 = new Massive("Mary", 7, "FEMALE");
     }
 
     @Test

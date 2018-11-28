@@ -126,35 +126,4 @@ public class Massive {
         }
         return array;
     }
-
-    public static class MassiveMain {
-        public static void main(String[] args) {
-            String lineDelimiter = "================================================";
-            new Massive("Bob", 35, "MALE");
-            new Massive("Helena", 34, "FEMALE");
-            new Massive("Vladimir", 5, "MALE");
-            new Massive("Sarah", 17, "FEMALE");
-
-
-            System.out.println("Все пользователи:");
-            getAllUsers().forEach(System.out::println);
-            System.out.println("Все пользователи: MALE");
-            getAllUsers("MALE").forEach(System.out::println);
-            System.out.println("Все пользователи: FEMALE");
-            getAllUsers("FEMALE").forEach(System.out::println);
-            System.out.println(lineDelimiter);
-            System.out.println("       всех пользователей: " + getHowManyUsers());
-            System.out.println("  всех пользователей MALE: " + getHowManyUsers("MALE"));
-            System.out.println("всех пользователей FEMALE: " + getHowManyUsers("FEMALE"));
-            System.out.println(lineDelimiter);
-            System.out.println("       общий возраст всех пользователей: " + getAllAgeUsers());
-            System.out.println("  общий возраст всех пользователей MALE: " + getAllAgeUsers("MALE"));
-            System.out.println("общий возраст всех пользователей FEMALE: " + getAllAgeUsers("FEMALE"));
-            System.out.println(lineDelimiter);
-            System.out.println("       средний возраст всех пользователей: " + getAverageAgeOfAllUsers());
-            System.out.println("  средний возраст всех пользователей MALE: " + getAverageAgeOfAllUsers("MALE"));
-            System.out.println("средний возраст всех пользователей FEMALE: " + getAverageAgeOfAllUsers("FEMALE"));
-            System.out.println(lineDelimiter);
-        }
-    }
 }
