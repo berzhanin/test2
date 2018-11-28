@@ -1,52 +1,52 @@
-1.Выбрать все записи из таблицы Categories
+1.Р’С‹Р±СЂР°С‚СЊ РІСЃРµ Р·Р°РїРёСЃРё РёР· С‚Р°Р±Р»РёС†С‹ Categories
 
 select * from Categories
 
 
-2.	Выбрать Id  и название категорий из таблицы Categories
+2.	Р’С‹Р±СЂР°С‚СЊ Id  Рё РЅР°Р·РІР°РЅРёРµ РєР°С‚РµРіРѕСЂРёР№ РёР· С‚Р°Р±Р»РёС†С‹ Categories
 
 select CategoryID, CategoryName from Categories
 
 
-3.	Выбрать адреса из таблицы Suppliers
+3.	Р’С‹Р±СЂР°С‚СЊ Р°РґСЂРµСЃР° РёР· С‚Р°Р±Р»РёС†С‹ Suppliers
 
 select Address from Suppliers
 
 
-4.	Отсортировать все продукты по цене в порядке убывания
+4.	РћС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ РІСЃРµ РїСЂРѕРґСѓРєС‚С‹ РїРѕ С†РµРЅРµ РІ РїРѕСЂСЏРґРєРµ СѓР±С‹РІР°РЅРёСЏ
 
 select * from Products
 order by Price
 
 
-5.	Отсортировать таблицу заказов по CustomerID, а затем по ShipperID в одной запросе
+5.	РћС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ Р·Р°РєР°Р·РѕРІ РїРѕ CustomerID, Р° Р·Р°С‚РµРј РїРѕ ShipperID РІ РѕРґРЅРѕР№ Р·Р°РїСЂРѕСЃРµ
 
 select * from Orders
 order by CustomerID,ShipperID
 
 
-6.	Выбрать все продукты, цена которых больше 40 и отсортировать по названию в обратном порядке
+6.	Р’С‹Р±СЂР°С‚СЊ РІСЃРµ РїСЂРѕРґСѓРєС‚С‹, С†РµРЅР° РєРѕС‚РѕСЂС‹С… Р±РѕР»СЊС€Рµ 40 Рё РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ РїРѕ РЅР°Р·РІР°РЅРёСЋ РІ РѕР±СЂР°С‚РЅРѕРј РїРѕСЂСЏРґРєРµ
 
 select * from Products
 where Price > 40
 order by Price
 
 
-7.	Выбрать все продукты, цена которых находится в диапазоне от 20 до 50 и отсортировать по юниту 
+7.	Р’С‹Р±СЂР°С‚СЊ РІСЃРµ РїСЂРѕРґСѓРєС‚С‹, С†РµРЅР° РєРѕС‚РѕСЂС‹С… РЅР°С…РѕРґРёС‚СЃСЏ РІ РґРёР°РїР°Р·РѕРЅРµ РѕС‚ 20 РґРѕ 50 Рё РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ РїРѕ СЋРЅРёС‚Сѓ 
 
 select * from Products
 where Price  between 20 and 50
 order by Unit
 
 
-8.	Выбрать все продукты, цена которых находится в диапазоне от 20 до 100 или CategoryID = 6
+8.	Р’С‹Р±СЂР°С‚СЊ РІСЃРµ РїСЂРѕРґСѓРєС‚С‹, С†РµРЅР° РєРѕС‚РѕСЂС‹С… РЅР°С…РѕРґРёС‚СЃСЏ РІ РґРёР°РїР°Р·РѕРЅРµ РѕС‚ 20 РґРѕ 100 РёР»Рё CategoryID = 6
 
 select * from Products
 where Price  between 20 and 100
 or CategoryID = 6
 
 
-9.	Выбрать все продукты, цена которых равна 46, 53, 55 (2-мя способами)
+9.	Р’С‹Р±СЂР°С‚СЊ РІСЃРµ РїСЂРѕРґСѓРєС‚С‹, С†РµРЅР° РєРѕС‚РѕСЂС‹С… СЂР°РІРЅР° 46, 53, 55 (2-РјСЏ СЃРїРѕСЃРѕР±Р°РјРё)
 
 select * from Products
 where Price = 46
@@ -58,7 +58,7 @@ where Price between 46 and 55
 and Price <> 49.3
 
 
-10.	 Выбрать все продукты, кроме тех, цена которых равна 46, 53, 55 
+10.	 Р’С‹Р±СЂР°С‚СЊ РІСЃРµ РїСЂРѕРґСѓРєС‚С‹, РєСЂРѕРјРµ С‚РµС…, С†РµРЅР° РєРѕС‚РѕСЂС‹С… СЂР°РІРЅР° 46, 53, 55 
 
 select * from Products
  where Price <> 55
@@ -66,34 +66,34 @@ select * from Products
  or Price <> 46 
  
  
-11.	 Выбрать все продукты, в имени которых есть сочетание «han»
+11.	 Р’С‹Р±СЂР°С‚СЊ РІСЃРµ РїСЂРѕРґСѓРєС‚С‹, РІ РёРјРµРЅРё РєРѕС‚РѕСЂС‹С… РµСЃС‚СЊ СЃРѕС‡РµС‚Р°РЅРёРµ В«hanВ»
 
 select * from Products
  where ProductName like '%han%'
  
  
-12.	 Вставить одну полную строку в таблицу Shippers
+12.	 Р’СЃС‚Р°РІРёС‚СЊ РѕРґРЅСѓ РїРѕР»РЅСѓСЋ СЃС‚СЂРѕРєСѓ РІ С‚Р°Р±Р»РёС†Сѓ Shippers
 
 insert into Shippers (ShipperID,ShipperName,Phone) 
-VALUES(‘1’,'Test',’123’)
+VALUES(вЂ1вЂ™,'Test',вЂ™123вЂ™)
 
  
-13.	 Вставить строку с 2-мя указанными значениями в таблицу Shippers
+13.	 Р’СЃС‚Р°РІРёС‚СЊ СЃС‚СЂРѕРєСѓ СЃ 2-РјСЏ СѓРєР°Р·Р°РЅРЅС‹РјРё Р·РЅР°С‡РµРЅРёСЏРјРё РІ С‚Р°Р±Р»РёС†Сѓ Shippers
 
 insert into Shippers (ShipperID,ShipperName,Phone) 
-VALUES(‘1’,'Test1',’123’);
+VALUES(вЂ1вЂ™,'Test1',вЂ™123вЂ™);
 insert into Shippers (ShipperID,ShipperName,Phone)
-VALUES(‘2’,'Test2',’321’ );
+VALUES(вЂ2вЂ™,'Test2',вЂ™321вЂ™ );
 
  
-14.	 Вставить значения из таблицы Shippers в таблицу Categories
+14.	 Р’СЃС‚Р°РІРёС‚СЊ Р·РЅР°С‡РµРЅРёСЏ РёР· С‚Р°Р±Р»РёС†С‹ Shippers РІ С‚Р°Р±Р»РёС†Сѓ Categories
 
 insert into Categories
 (CategoryName, Description)
 select ShipperName, Phone from Shippers
 
  
-15.	 Вставить значения из таблицы Shippers c именем поставщика «Speedy Express» в таблицу Categories
+15.	 Р’СЃС‚Р°РІРёС‚СЊ Р·РЅР°С‡РµРЅРёСЏ РёР· С‚Р°Р±Р»РёС†С‹ Shippers c РёРјРµРЅРµРј РїРѕСЃС‚Р°РІС‰РёРєР° В«Speedy ExpressВ» РІ С‚Р°Р±Р»РёС†Сѓ Categories
 
 insert into Categories 
 (CategoryName, Description)
@@ -101,30 +101,30 @@ select ShipperName, Phone from Shippers
 where ShipperName in('Speedy Express')
 
 
-16.	Удалить из таблицы Shippers доставщика с именем 	«Speedy Express» 
+16.	РЈРґР°Р»РёС‚СЊ РёР· С‚Р°Р±Р»РёС†С‹ Shippers РґРѕСЃС‚Р°РІС‰РёРєР° СЃ РёРјРµРЅРµРј 	В«Speedy ExpressВ» 
 
 delete from Shippers
-where ShipperName = ‘Speedy Express’
+where ShipperName = вЂSpeedy ExpressвЂ™
 
 
-17.	 Удалить продукты, цена которых меньше 50
+17.	 РЈРґР°Р»РёС‚СЊ РїСЂРѕРґСѓРєС‚С‹, С†РµРЅР° РєРѕС‚РѕСЂС‹С… РјРµРЅСЊС€Рµ 50
 
 delete from Products
 where Price < 50
 
 
-18.	 Удалить все заказы
+18.	 РЈРґР°Р»РёС‚СЊ РІСЃРµ Р·Р°РєР°Р·С‹
 
 delete from Orders
 
 
-19.	 Изменить описании категории продукта с названием категории = «Beverages» на любое другое
+19.	 РР·РјРµРЅРёС‚СЊ РѕРїРёСЃР°РЅРёРё РєР°С‚РµРіРѕСЂРёРё РїСЂРѕРґСѓРєС‚Р° СЃ РЅР°Р·РІР°РЅРёРµРј РєР°С‚РµРіРѕСЂРёРё = В«BeveragesВ» РЅР° Р»СЋР±РѕРµ РґСЂСѓРіРѕРµ
 
-update Categories SET CategoryName = ‘Test1’
+update Categories SET CategoryName = вЂTest1вЂ™
 where CategoryName = 'Beverages'
 
 
-20.	 Изменить цену продукта с именем Chais на любую другую
+20.	 РР·РјРµРЅРёС‚СЊ С†РµРЅСѓ РїСЂРѕРґСѓРєС‚Р° СЃ РёРјРµРЅРµРј Chais РЅР° Р»СЋР±СѓСЋ РґСЂСѓРіСѓСЋ
 
 update Products SET Price = '20'
 where ProductName = 'Chais'
