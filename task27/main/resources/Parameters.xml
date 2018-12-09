@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters>
+    <textForSearch>Автоматизация тестирования</textForSearch>
+    <recipients>ddd.berzhanin@mail.ru, di.berzhanin@gmail.com</recipients>
+    <topicLetter>Hi, I'm Topic</topicLetter>
+    <textLetter>Text for Letters.</textLetter>
+    <moveToSpamValidText>message go to spam-order</moveToSpamValidText>
+    <extractFromSpamValidText>message go to order «input»</extractFromSpamValidText>
+    <sendLetterValidText>Your message is delivered.</sendLetterValidText>
+</Parameters>

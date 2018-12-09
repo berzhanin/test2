@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Refs>
+    <Countries>
+        <Country>
+            <Id>1</Id>
+            <Code>RUS</Code>
+            <Name>Россия</Name>
+            <Description>Российская Федерация</Description>
+        </Country>
+        <Country>
+            <Id>2</Id>
+            <Code>USA</Code>
+            <Name>США</Name>
+            <Description>Соединенные Штаты Америки</Description>
+        </Country>
+    </Countries>
+
+</Refs>
