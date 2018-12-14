@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters>
+    <textForSearch>Java autotesting/textForSearch>
+    <recipients>nnn.berzhanin@mail.ru, mashliakevich@mail.ru</recipients>
+    <topicLetter>TestTopic.</topicLetter>
+    <textLetter>Text for text letter.</textLetter>
+    <moveToSpamValidText>message go to «spam-folder». Cancel</moveToSpamValidText>
+    <extractFromSpamValidText>message go to «input-folder».</extractFromSpamValidText>
+    <sendLetterValidText>Your message delivered. Go to «input-folder»</sendLetterValidText>
+</Parameters>
